@@ -33,3 +33,6 @@ name = "cloudflare-docker-proxy-staging"
 [env.staging.vars]
 MODE = "staging"
 TARGET_UPSTREAM = ""
+
+[env.vars]
+CUSTOM_DOMAIN = "libcuda.so"
